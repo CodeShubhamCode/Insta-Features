@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Serif", serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 19, 50);
+}
+
+#card{
+    border-radius: 15px;
+    height: 430px;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#card img{
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+#card h1{
+    font-size: 25px;
+    margin: 2px;
+}
+
+#card h5{
+    font-size: 20px;
+    color: red;
+    margin-top: 15px;
+}
+
+#card button{
+    background-color: #0084ff;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+#card #remove{
+    background-color: #ff0000;
+    color: black;
+}
+
+#card button:hover{    
+    transform: scale(1.15);
+
+}
+
